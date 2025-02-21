@@ -1,0 +1,1 @@
+This example demonstrates a common error in Firebase Authentication: forgetting to unsubscribe from the `onAuthStateChanged` listener.  The `authBug.js` file shows the problem, while `authSolution.js` provides the corrected code.  Failure to unsubscribe can cause memory leaks, impacting your app's performance and stability.  Always remember to clean up your listeners!
